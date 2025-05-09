@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
+import ThreeDContainer from './components/ThreeDContainer'
 import './App.css'
 
 function App() {
@@ -16,9 +17,13 @@ function App() {
         <a href="https://react.dev" target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
-        
+
+
+
+
       </div>
-      <h1>Template Vite + React + GithubPages </h1>
+      <ThreeDContainer/>
+      <h1> Template Vite + React + GithubPages </h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
