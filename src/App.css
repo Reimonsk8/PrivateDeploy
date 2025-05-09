@@ -50,7 +50,10 @@
 
 .three-container {
   width: 100%;
-  height: 100vh; /* or set a fixed height like 600px if you prefer */
-  background-color: #111; /* to help make the scene visible */
+  height: 50vh; /* or set a fixed height like 600px if you prefer */
   position: relative;
+}
+
+canvas {
+  background: transparent;
 }
